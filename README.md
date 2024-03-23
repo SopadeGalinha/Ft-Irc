@@ -100,7 +100,19 @@ In IRC, sockets play a crucial role in facilitating communication between client
 
 Overall, sockets form the backbone of communication in IRC, enabling real-time text-based messaging between clients and servers over the Internet.
 
+## Poll
+The poll() function is used to monitor multiple file descriptors to see if any of them are ready for I/O operations. It is often used in network programming to handle multiple client connections simultaneously without blocking.
+
+**Initialization**: You create a struct pollfd array where each element represents a file descriptor you want to monitor. Each element contains information about the file descriptor and the events you're interested in (e.g., whether you want to monitor for read, write, or error events).
+
+**Call poll()**: You pass this array to the poll() function along with the number of file descriptors being monitored and a timeout value. The poll() function will block until either one of the file descriptors becomes ready for the requested I/O operations or the timeout expires.
+
+**Check for Events**: Once poll() returns, you iterate through the array of pollfd structures to see which file descriptors are ready and what type of events occurred on each.
+
+**Handle Events**: You then handle the I/O operations based on the events detected (e.g., reading from a socket, writing to a file, etc.).
+
 ## Resources
+
 [Internet Relay Chat](https://chi.cs.uchicago.edu/chirc/irc.html) - IRC Overview <br>
 [IRC Communications](https://chi.cs.uchicago.edu/chirc/irc_examples.html) - Exemples of a conversation between an IRC client and server <br>
 [RFC2810](https://datatracker.ietf.org/doc/html/rfc2810) - Internet Relay Chat: Architecture <br>
