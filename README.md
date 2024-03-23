@@ -46,15 +46,15 @@ Furthermore, IRC facilitates the creation of chat rooms, referred to as channels
 - Forward messages from one client to every other client in the channel.
 - Implement operators and regular users.
 - Implement specific commands for channel operators:
-  - KICK: Eject a client from the channel.
-  - INVITE: Invite a client to a channel.
-  - TOPIC: Change or view the channel topic.
-  - MODE: Change the channel's mode:
-    - i: Set/remove Invite-only channel.
-    - t: Set/remove restrictions of the TOPIC command to channel operators.
-    - k: Set/remove the channel key (password).
-    - o: Give/take channel operator privilege.
-    - l: Set/remove the user limit to the channel.
+  - **KICK**: Eject a client from the channel.
+  - **INVITE**: Invite a client to a channel.
+  - **TOPIC**: Change or view the channel topic.
+  - **MODE**: Change the channel's mode:
+    - **i**: Set/remove Invite-only channel.
+    - **t**: Set/remove restrictions of the TOPIC command to channel operators.
+    - **k**: Set/remove the channel key (password).
+    - **o**: Give/take channel operator privilege.
+    - **l**: Set/remove the user limit to the channel.
 
 
 ## Test Example
