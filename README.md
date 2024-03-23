@@ -1,2 +1,4 @@
-# Ft-Irc
-This project is about creating your own IRC server. You will use an actual IRC client to connect to your server and test it. Internet is ruled by solid standards protocols that allow connected computers to interact with each other
+## FT-IRC (Internet Relay Chat)
+
+### Overview:
+This repository contains the source code for an Internet Relay Chat (IRC) implementation, a text-based communication protocol facilitating real-time group and private messaging over the Internet. The project aims to provide a robust and customizable IRC server and client solution for various use cases.
