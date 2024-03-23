@@ -102,7 +102,7 @@ Overall, sockets form the backbone of communication in IRC, enabling real-time t
 
 ## Resources
 [Internet Relay Chat](https://chi.cs.uchicago.edu/chirc/irc.html) - IRC Overview <br>
-[Example IRC Communications](https://chi.cs.uchicago.edu/chirc/irc_examples.html) - Exemples of a conversation between an IRC client and server <br>
+[IRC Communications](https://chi.cs.uchicago.edu/chirc/irc_examples.html) - Exemples of a conversation between an IRC client and server <br>
 [RFC2810](https://datatracker.ietf.org/doc/html/rfc2810) - Internet Relay Chat: Architecture <br>
 
 
