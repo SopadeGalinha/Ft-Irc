@@ -20,7 +20,7 @@ Internet Relay Chat (IRC) is a protocol for real-time text communication over th
 
 The architecture of IRC, as depicted in the figure above, is refreshingly straightforward. At its core, a single IRC server serves as the hub for connections from multiple IRC clients. Each client connects to the server with a unique identity, typically denoted by a distinct nickname, This ensures individuality within the network. Once linked, clients can engage in direct one-on-one conversations with fellow users and execute commands to query the server's status, such as retrieving a list of connected users or acquiring further details about a specific nickname.
 
-Furthermore, IRC facilitates the creation of chat rooms, referred to as channels, fostering one-to-many communication. Users can seamlessly join these channels, where they can share messages with the entire audience. Consequently, these messages reach all users currently present in the channel, enriching collaborative interactions within the IRC network.
+Furthermore, IRC facilitates the creation of chat rooms(channels) fostering one-to-many communication. Users can seamlessly join these channels, where they can share messages with the entire audience. Consequently, these messages reach all users currently present in the channel, enriching collaborative interactions within the IRC network.
 
 ## Project requirements
 
@@ -139,7 +139,3 @@ Key Points:
 [IRC Communications](https://chi.cs.uchicago.edu/chirc/irc_examples.html) - Exemples of a conversation between an IRC client and server <br>
 [RFC2810](https://datatracker.ietf.org/doc/html/rfc2810) - Internet Relay Chat: Architecture <br>
 [The Poll() Function](https://linuxhint.com/use-poll-system-call-c/) - how to use ``poll()``
-
-
-
-
